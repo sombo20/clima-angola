@@ -1,0 +1,37 @@
+body{
+	
+	padding:0px;
+	margin:0px;
+	background-image: -webkit-linear-gradient(225deg, #3498db 0%, #00C4E1 45%, #3498db 0%);
+	background-repeat:no-repeat;
+	font-family:ariel,sans-serif;
+	height:33.6666rem;
+}
+
+.error {
+	display:flex;
+	flex-direction:column;
+	justify-content:center;
+	align-items:center;
+	color:#fff;
+}
+
+.error span h2:first-child {
+	animation:girar 6s infinite;
+}
+
+@-webkit-keyframes girar{
+  	0%{
+  		-webkit-transform:rotate(-10deg);
+  	}20%{
+  	    -webkit-transform:rotate(-20deg);
+  	}40%{
+  		-webkit-transform:rotate(-30deg);
+  	}60%{
+  	   -webkit-transform:rotate(30deg);
+  	}80%{
+  		-webkit-transform:rotate(20deg);
+  	}100%{
+  		-webkit-transform:rotate(10deg);
+  	}
+}

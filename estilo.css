@@ -1,0 +1,266 @@
+
+@media(max-width:750px){
+body{
+		  	padding:0px;
+		  	margin:0px;
+		  	background: -webkit-linear-gradient(225deg, #3498db 0%, #00C4E1 45%, #3498db 0%);
+		  	background-repeat:no-repeat;
+		  	font-family:ariel,sans-serif;
+		  	  font-smoothing: antialiased;
+		  }
+		  
+		  #header{
+		    bacgound-image: -webkit-linear-gradient(225deg, #3498db 0%, #00C4E1 45%, #3498db 70%);
+		  	height:16rem;
+		  }
+		  
+		  #header  .menu {
+		  	display:flex;
+		  	flex-direction:row;
+		  	justify-content:space-around;
+		  	align-items:space-around;
+		  }
+		  
+		  nav {
+		  	position:absolute;
+		  	top:-300px;
+		  	left:0px;
+		 	background-image: -webkit-linear-gradient(225deg, #3498db 0%, #00C4E1 45%, #3498db 0%);
+		  	width:90%;
+		  	height:16rem;
+		  	border-bottom-right-radius:6px;
+		  }
+		  
+		  nav ul li a{
+		  	text-decoration:none;
+		  	color:#fff;
+		  	padding:15px;
+		  	font-size:18px;
+		  	
+		  }
+		  
+		  .sair {
+		    display:flex;
+		    justify-content:flex-between;
+		    align-items:flex-between;
+		    position:relative;
+		    left:1rem;
+		  }
+		  
+		  #exit{
+		    padding:8px;
+		    background:none;
+		    color:#fff;
+		    border:none;
+		    font-size:26px;
+		  }
+		  
+		  .menu span h3{
+		  	color:#fff;
+		  	margin-top:12px;
+		  	font-size:22px;
+		  }
+		  
+		  .menu svg{
+		  	margin-top:12px;
+		  }
+		  
+		  .title{
+		    display:flex;
+		    justify-content:center;
+		    align-items:center;
+		    margin-top:3.555rem;
+		  }
+		  
+		  .title span h2{
+		    color:#fff;
+		  }
+		  
+		  .worldmap {
+		  position: absolute;
+		  margin: 0 auto;
+		  top: 0;
+		  right: 0;
+		  bottom: 0;
+		  left: 0;
+		  height: 40%;
+		  width: 40%;
+		  }
+		  
+		  nav ul li{
+		    display:block;
+		  }
+		  
+		  .worldmap circle {
+		  fill: rgba(255,255,255,0.15) !important;
+		  stroke: none !important;
+		  }
+		  
+		  
+		  .description{
+		    display:flex;
+		    justify-content:center;
+		    align-items:center;
+		    flex-direction:column;
+		    color:#fff;
+		    
+		  }
+		  
+		  .json{
+		  	display:flex;
+		  	justify-content:center;
+		  	align-items:center;
+		  	flex-wrap:wrap ;
+		  	width:80%;
+		  	min-height:16rem;
+		  	background:#eee;
+		  	box-shadow:0px 4px #eee;
+		  	color:rgb(0,0,0);
+		  	padding:12px;
+		  	border-radius:6px;
+		  	margin-bottom:4rem;
+		  }
+		  
+		  .footer{
+		  	display:flex;
+		  	justify-content:center;
+		  	align-items:center;
+		  	color:#fff;
+		  	flex-direction:column;
+		  }
+		  
+		  
+}
+
+@media(min-width:350px){
+  body{
+  padding:0px;
+  margin:0px;
+  background: -webkit-linear-gradient(225deg, #3498db 0%, #00C4E1 45%, #3498db 0%);
+  background-repeat:no-repeat;
+  font-family:ariel,sans-serif;
+  font-smoothing: antialiased;
+  }
+  
+  
+  
+  #header  .menu {
+  display:flex;
+  flex-direction:row;
+  justify-content:space-between;
+  align-items:space-between;
+  }
+  
+  nav {
+  position:absolute;
+  top:-300px;
+  left:0px;
+  background-image: -webkit-linear-gradient(225deg, #3498db 0%, #00C4E1 45%, #3498db 0%);
+  width:90%;
+  height:16rem;
+  border-bottom-right-radius:6px;
+  }
+  
+  nav ul li a{
+  text-decoration:none;
+  color:#fff;
+  padding:15px;
+  font-size:18px;
+  
+  }
+  
+  .sair {
+  display:flex;
+  justify-content:flex-between;
+  align-items:flex-between;
+  position:relative;
+  left:1rem;
+  }
+  
+  #exit{
+  padding:8px;
+  background:none;
+  color:#fff;
+  border:none;
+  font-size:26px;
+  }
+  
+  .menu span h3{
+  color:#fff;
+  margin-top:12px;
+  margin-left:3rem;
+  font-size:22px;
+  }
+  
+  .menu svg{
+  margin-top:12px;
+  margin-left:-3rem;
+  }
+  
+  .title{
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  margin-top:3.555rem;
+  }
+  
+  .title span h2{
+  color:#fff;
+  }
+  
+  .worldmap {
+  position: absolute;
+  margin: 0 auto;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  height: 40%;
+  width: 40%;
+  }
+  
+  nav ul li{
+  display:block;
+  }
+  
+  .worldmap circle {
+  fill: rgba(255,255,255,0.15) !important;
+  stroke: none !important;
+  }
+  
+  
+  .description{
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  flex-direction:column;
+  color:#fff;
+  padding:14px;
+  }
+  
+  .description #d{
+  	padding:16px;
+  }
+  
+  .json{
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  width:80%;
+  height:16rem;
+  background:#eee;
+  box-shadow:0px 4px #eee;
+  color:rgb(0,0,0);
+  padding:12px;
+  border-radius:6px;
+  margin-bottom:4rem;
+  }
+  
+  .footer{
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  color:#fff;
+  flex-direction:column;
+  }
+}
